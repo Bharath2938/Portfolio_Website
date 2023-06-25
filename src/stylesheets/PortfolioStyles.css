@@ -104,6 +104,9 @@
 .style-arrow-right{
     float: right;
 }
+.styleing{
+    width: auto;
+}
 
 @media screen and (max-width:640px) {
     .portfolio-container{
