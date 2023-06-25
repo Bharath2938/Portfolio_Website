@@ -1,0 +1,277 @@
+.main-about-sec{
+    width: 100%;
+    height: auto;
+    background-color: #2f2f2f;
+    justify-content: center;
+    
+    flex-direction: column;
+    display: grid;
+    grid-template-columns:  repeat(2,1fr);
+
+}
+.abt-imge-sec{
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+    text-align: center;
+    display: inline-block !important;
+     
+}
+.abt-imge-sec h4{
+    padding: 15px;
+    font-size: 18px;
+}
+.abt-img-stl{
+    width: 40%;
+    margin-top: 50px;
+    border-radius: 50%;
+    transition: 0.8s ease-in-out;
+    
+}
+.abt-img-stl:hover{
+   box-shadow: 0px 1px 2px #FFCB74, 
+    2px 2px 4px #FFCB74, 
+    5px 4px 8px #FFCB74, 
+    0px 8px 16px #2f2f2f;
+    transition: 0.8s ease-in-out;
+    transform: scale(1.05);
+}
+.abt-det-sec{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color:#2f2f2f;
+    display: inline-block !important; 
+    padding: 10px; 
+
+}
+.abt-det-cont{
+width: 100%;
+color: #f6f6f6;
+line-height: 15px;
+}
+.abt-det-cont li {
+    font-size: 1.0rem;
+    line-height: 40px;
+    list-style-type:circle;
+}
+.abt-det-cont h3{
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+}
+.abt-det-cont h1{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.abt-det-cont h4{
+    font-size: 1.0rem;
+}
+.abt-det-cont p{
+    font-size: 0.9rem;
+}
+.abt-icns{
+    font-size: 25px;
+    color: #f6f6f6;
+    vertical-align: middle;
+}
+.abt-skill-cont{
+    display: grid;
+    grid-template-columns:  repeat(2,1fr);
+    align-items: center;
+    text-align: center;
+    
+}
+.skill-det-cont{
+    width: 80%;
+    height: 380px;
+    background-color: rgba(255,203,116,1.0);
+    border-radius: 15px 12% ;
+    color: #f6f6f6;
+    margin:  0 auto ;
+    justify-content: center;
+    align-items: center;
+}
+.skill-det-cont li{
+    line-height: 40px;
+
+}
+.skill-btn-cont{
+width: 100% !important;
+  
+}
+.skill-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.up{
+    color: #2f2f2f;
+}
+.dwn{
+    color: #f6f6f6;
+}
+.disp{
+    display: flex;
+    transition: 0.8s ease-in-out;
+    background-image: url(../Assets/foliobg.jpg);
+    
+}
+.invbl{
+    display: block;
+    transition: 0.8s ease-in-out;
+    background-image: url(../Assets/whitefoliobg.jpg);
+}
+.hobbies-det-cont{
+    width: 80%;
+    height: 380px;
+    border-radius: 12% 15px;
+    color: #f6f6f6;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.hob-btn-cont{
+    width: 100%;
+    
+}
+.hobby-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.dropdownItem-lists{
+    list-style-type: none !important;
+    text-align: start;
+    padding: 5px;
+    border-bottom: 2px solid #2f2f2f;
+    margin: 2px auto;
+    color: #2f2f2f;
+}
+.dropdownItem-lists:hover{
+    background-color: rgba(0, 10, 25, 0.8);
+    color: #f6f6f6;
+}
+.dropdownItem-lists:hover img{
+    opacity: 1.0;
+}
+.dropdownItem-lists img{
+    width: 30px;
+    height: 30px;
+    opacity: 0.6;
+}
+.skill-det-list{
+    width: 80%;
+    margin: 0 auto;
+}
+.hob-det-list{
+    width: 80%;
+    margin: 0 auto;
+}
+.hobbies-det-cont li{
+    line-height: 40px;
+
+}
+.ops{
+    display: none;
+}
+.ips{
+    display: block;
+}
+
+@media screen and (max-width:640px) {
+    .main-about-sec{
+        grid-template-columns:  1fr;
+    
+    }
+    .abt-imge-sec h4{
+        padding: 8px;
+    }
+    .abt-img-stl{
+        margin-top: 30px;       
+    }
+    .abt-det-cont{
+        width: 100%;
+        color: #f6f6f6;
+        margin: 0 auto;
+    }
+    .abt-det-cont h3{
+        letter-spacing: 2px;
+        font-size: 1.0rem;
+    }
+    .abt-det-cont li {
+        font-size: 0.8rem;
+        line-height: 25px;
+    }
+    .abt-det-cont h4{
+        font-size: 0.8rem;
+    }
+    .abt-det-cont h5{
+        font-size: 0.8rem;
+    }
+    .abt-det-cont h6{
+        font-size: 0.7rem;
+    }
+    .abt-icns{
+    font-size: 18px;
+    color: #f6f6f6;
+    vertical-align: middle;
+    } 
+    .skill-det-cont{
+        height: 320px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .skill-det-cont li{
+        line-height: 15px;
+    
+    }
+    .hobbies-det-cont{
+        height: 320px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .abt-skill-cont{
+        display: grid;
+        grid-template-columns:  1fr;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .skills-main-cont{
+        margin-top: 10px;
+    }
+    .hobs-main-cont{
+        margin-top: 10px;
+    }
+    .dropdownItem-lists{
+        list-style-type: none !important;
+        text-align: start;
+        padding: 5px 8px;
+        border-bottom: 2px solid #f6f6f6;
+        margin: 2px auto;
+        color: #2f2f2f;
+    }
+    .dropdownItem-lists img{
+        width: 30px;
+        height: 30px;
+    }
+    
+
+    
+}
+/* .main-btn-cont{
+    width: auto;
+}
+.maintain-abt-cont{
+    visibility: hidden;
+}
+.maintain-abt-cont.actib{
+    visibility: visible;
+} */

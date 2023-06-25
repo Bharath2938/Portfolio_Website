@@ -1,0 +1,12 @@
+.load-color{
+    color: #FFCB74;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    height: 100vh;
+    background-color: #2f2f2f;
+    font-weight: 900;
+}

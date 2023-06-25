@@ -1,0 +1,166 @@
+.main-portf{
+    width: 100%;
+    background-image: url(../Assets/foliobg.jpg);
+    background-size:cover;
+}
+.main-head-port{
+    text-align: center;
+    color: #2f2f2f;
+    
+}
+.portfolio-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    transition: 1.5s ease-in-out;
+    
+}
+
+.port-symb{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight:bolder;
+    text-transform: uppercase;
+    
+    
+}
+.port-symb-act{
+    color: #f6f6f6;
+    left: 50%;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 20px;
+}
+.port-symb-inact{
+    color: #2f2f2f;
+    left: 0%;
+    position: relative;
+    transition: 0.8s ease-out;
+    letter-spacing: 7px;
+}
+
+.port-symb-imge{
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 8px 10px 10px 10px rgba(139, 137, 135, 0.2)
+}
+.port-btn{
+    
+    padding: 5px;
+    background-color: #f6f6f6;
+    color: #2f2f2f;
+    margin: 0 auto;
+    border-radius: 1vh;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    border: none;
+    
+}
+.port-btn:hover{
+    background-color: #2f2f2f;
+    color: #f6f6f6;
+    transform:scaleX(1.2);
+    transition: 0.3s;
+}
+.port-details{
+    width: 100%;
+    margin-top: 30px;
+    opacity: 0;
+    position:relative;
+    left: -200%;
+    transition: 0.3s; 
+    padding-bottom: 5px; 
+    animation: glow 1s ease-in-out infinite alternate;
+
+    
+
+}
+
+.port-details.actives{
+    opacity: 1.0;
+    transition: 0.8s;
+    left: 0%;
+}
+.port-content{
+    background-color: rgba(255, 255, 255, 0.342);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    height: auto;
+}
+.port-content ul{
+    padding-left: 50px;
+}
+.port-content li{
+    font-size: 18px;
+}
+.port-content p{
+    font-size: 18px;
+}
+.style-arrow-right{
+    float: right;
+}
+
+@media screen and (max-width:640px) {
+    .portfolio-container{
+        width: 100%;
+        height: auto;
+        display: block;
+        
+    }
+    .portf-cont{
+        grid-template-columns: repeat(2,1fr);
+        transition: 1.5s ease-in-out;
+     
+    }
+    .port-symb{
+        letter-spacing: 3px;
+    }
+    .port-symb-act{
+        left: 0%;
+        margin-top: 130px;
+        color: #f6f6f6;
+        
+    }
+    .port-symb-inact{
+        color: #2f2f2f;
+    }
+  
+    .port-symb-imge{
+        width: 60%;
+        margin: 5px auto;
+        border-radius: 05px;
+        box-shadow: 4px 5px 5px 05px rgba(139, 137, 135, 0.2)
+    }
+    .port-btn{
+        padding: 3px;
+        background-color: #f6f6f6;
+        color: #2f2f2f;
+        margin: 0 auto;
+        border-radius: 1vh;
+        font-size: 1rem;   
+    }
+    .port-details{
+        width: 100%;
+        margin-top: 10px;
+        left: -100%;
+        
+        
+   
+    }
+    .port-details.actives{
+        left: 0%;
+        height: auto;
+        
+    }
+    .port-content li{
+        font-size: 12px;
+    }
+    .port-content p{
+        font-size: 12px;
+    }
+}

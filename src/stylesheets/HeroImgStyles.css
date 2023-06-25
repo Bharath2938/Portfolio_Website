@@ -1,0 +1,98 @@
+.hero-img-container{
+color: rgb(255, 255, 255);
+height: 100%;
+width: 100%;
+}
+
+.hero-img-container .hero-content {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    text-align: center;
+}
+
+.hero-img-container .hero-content h3 {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+}
+
+.hero-img-container .hero-content p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.mask{
+width: 100%;
+height: 100vh;
+position: relative;
+}
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.8;
+}
+.intro-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.pro-img{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+}
+.hero-btn{
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(248, 217, 10);
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+}
+.hero-btn:hover{
+    background: #ffcb74
+
+}
+.btn-light{
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 5px;
+
+
+}
+.btn-light:hover{
+    background: #ffcb74;
+    color: #222;
+}
+
+@media screen and (max-width:640px) {
+    .hero-img-container .hero-content h3 {
+        font-size: 2.2rem;
+        padding: 0.3rem 0 1.0rem;
+    }
+    
+    .hero-img-container .hero-content p {
+        font-size: 1.2rem;
+       
+    } 
+}
