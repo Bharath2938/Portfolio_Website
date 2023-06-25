@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Website/static/css/main.af10c802.css",
+    "main.js": "/Portfolio_Website/static/js/main.014cf610.js",
+    "static/media/IntroImg.jpg": "/Portfolio_Website/static/media/IntroImg.7c32dc8cb557dfd7fa2f.jpg",
+    "static/media/ResImgs.jpg": "/Portfolio_Website/static/media/ResImgs.bb09b9e9b3b155f90708.jpg",
+    "static/media/reactjs.png": "/Portfolio_Website/static/media/reactjs.2f2532db663fd5ec5f95.png",
+    "static/media/profilepic.jpeg": "/Portfolio_Website/static/media/profilepic.6ccc7f03b17e9d4eebe9.jpeg",
+    "static/media/ResumeBharath.pdf": "/Portfolio_Website/static/media/ResumeBharath.5ef238de7c49a8c440cd.pdf",
+    "static/media/ProImg1.jpeg": "/Portfolio_Website/static/media/ProImg1.c9f839c264a36b40f4d3.jpeg",
+    "static/media/ProImg5.jpeg": "/Portfolio_Website/static/media/ProImg5.d0b8ea7e2c6d18af09fc.jpeg",
+    "static/media/ProImg2.jpeg": "/Portfolio_Website/static/media/ProImg2.820561ff3f8a90877b64.jpeg",
+    "static/media/ProImg3.jpeg": "/Portfolio_Website/static/media/ProImg3.6883b8cc15b286db749f.jpeg",
+    "static/media/whitefoliobg.jpg": "/Portfolio_Website/static/media/whitefoliobg.a480e4525ae846788f97.jpg",
+    "static/media/foliobg.jpg": "/Portfolio_Website/static/media/foliobg.0ddbe63829a4f243b3f8.jpg",
+    "static/media/css3.png": "/Portfolio_Website/static/media/css3.87f545c8e6cfb5682e51.png",
+    "static/media/jslogo.png": "/Portfolio_Website/static/media/jslogo.76536eb2b86398277df3.png",
+    "static/media/PortfoImg.png": "/Portfolio_Website/static/media/PortfoImg.b9818c6c9ba6fff022d6.png",
+    "static/media/cricket.png": "/Portfolio_Website/static/media/cricket.7962e851343db8c32cd5.png",
+    "static/media/Portlogo1.png": "/Portfolio_Website/static/media/Portlogo1.32364787d237befbef41.png",
+    "static/media/ProImg4.jpeg": "/Portfolio_Website/static/media/ProImg4.5605f1db7c67097c9956.jpeg",
+    "static/media/fragmen.png": "/Portfolio_Website/static/media/fragmen.b57d0f1c0471ba4ab409.png",
+    "static/media/instag.png": "/Portfolio_Website/static/media/instag.682bace50b87c2790580.png",
+    "static/media/html5.png": "/Portfolio_Website/static/media/html5.dd8581f9657e88aebf31.png",
+    "index.html": "/Portfolio_Website/index.html",
+    "main.af10c802.css.map": "/Portfolio_Website/static/css/main.af10c802.css.map",
+    "main.014cf610.js.map": "/Portfolio_Website/static/js/main.014cf610.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af10c802.css",
+    "static/js/main.014cf610.js"
+  ]
+}
