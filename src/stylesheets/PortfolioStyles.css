@@ -120,17 +120,17 @@
         transition: 1.5s ease-in-out;
      
     }
-    .port-symb{
-        letter-spacing: 3px;
-    }
+
     .port-symb-act{
         left: 0%;
         margin-top: 130px;
         color: #f6f6f6;
+        letter-spacing: 10px;
         
     }
     .port-symb-inact{
         color: #2f2f2f;
+        letter-spacing: 3px;
     }
   
     .port-symb-imge{
