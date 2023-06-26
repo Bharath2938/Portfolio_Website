@@ -65,15 +65,17 @@
     color: white;
     text-decoration: none;
     text-align: center;
+    padding: 10px;
+    vertical-align: middle;
 }
 
 
 .githubs{
     color: #ffffff;
     font-size: 40px; 
-    vertical-align: middle;
+    vertical-align:top;
     transition: 0.2s;
-    margin: 15px;
+    margin: 5px;
 }
 .githubs:hover{
     color: #FFCB74;
@@ -130,7 +132,7 @@
         vertical-align: middle;
         transition: 0.2s;
         margin: 5px;
-        margin-bottom: 0px;
+        
     }
     .link-git h3 {
         font-size: 12px;
