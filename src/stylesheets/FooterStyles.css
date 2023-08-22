@@ -119,6 +119,18 @@
    transition: 0.3s ease-in-out;
    transform: scale(1.8)
 }
+.youtube{
+    color: #FFCB74;
+    font-size: 40px; 
+    vertical-align: middle;
+    transition: 0.2s;
+    margin: 15px;
+}
+.youtube:hover{
+    color: #FF0000;
+   transition: 0.3s ease-in-out;
+   transform: scale(1.8)
+}
 .copy-cont{
     overflow: hidden;
 }

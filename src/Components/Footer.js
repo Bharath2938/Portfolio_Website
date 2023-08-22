@@ -9,6 +9,7 @@ import {
   FaMailBulk,
   FaPhone,
   FaRegCopyright,
+  FaYoutube
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -74,6 +75,9 @@ const Footer = () => {
             </a>
             <a href="https://github.com/Bharath2938" target="blank">
               <FaGithub className="github" />
+            </a>
+            <a href="https://youtube.com/@Codes_of_Bharath" target="blank">
+              <FaYoutube className="youtube" />
             </a>
           </div>
           <div className="quote">
